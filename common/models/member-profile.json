@@ -1,0 +1,26 @@
+{
+  "name": "MemberProfile",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "number",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true,
+      "default": "male"
+    },
+    "flat": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
