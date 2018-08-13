@@ -2,5 +2,21 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongo-atlas-url": {
+    "host": [
+      "cluster0-shard-00-00-itgyx.mongodb.net",
+      "cluster0-shard-00-01-itgyx.mongodb.net",
+      "cluster0-shard-00-02-itgyx.mongodb.net"
+    ],
+    "port": "27017",
+    "database": "Cluster0",
+    "username": "prince",
+    "password": "adm!n",
+    "name": "mongo-atlas-url",
+    "connector": "mongodb",
+    "ssl": true,
+    "replicaSet": "Cluster0-shard-0",
+    "authSource": "admin"
   }
 }

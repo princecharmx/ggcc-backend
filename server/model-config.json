@@ -36,6 +36,7 @@
     "public": false
   },
   "MemberProfile": {
-    "dataSource": "db"
+    "dataSource": "mongo-atlas-url",
+    "public": true
   }
 }
